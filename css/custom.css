@@ -1,0 +1,297 @@
+#wrapper {
+    width: 780px;
+    margin: 50px;
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6 {
+    width: 150px;
+    height: 150px;
+}
+
+#d1 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#d2 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    left: 180px;
+    top: 0;
+    position: absolute;
+}
+
+#d3 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    left: 360px;
+    top: 0;
+    margin: 5px;
+    position: absolute;
+}
+
+#d4 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    left: 0;
+    top: 180px;
+    position: absolute;
+}
+
+#d5 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    left: 180px;
+    top: 180px;
+    position: absolute;
+}
+
+#d6 {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    left: 360px;
+    top: 180px;
+    position: absolute;
+}
+
+#para {
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#picture {
+    height: 560px;
+    width: 700px;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 600px;
+    float: left;
+    margin-left: 450px;
+}
+
+.log-wrapper {
+    float: right;
+}
+
+.bt {
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+}
+
+.bt:hover {
+    color: red;
+    font-style: italic;
+}
+
+.form {
+    width: 200px;
+}
+
+#result {
+    float: left;
+    width: 500px;
+    background-color: cornflowerblue;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+#date-text1-1,
+span {
+    color: black;
+}
+
+.log {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.log .log__entry {
+    margin: .1em 0;
+    padding: .1em .2em;
+    white-space: nowrap;
+}
+
+body {
+    font-family: arial;
+    background-image: url("../images/gym.jpg");
+}
+
+.container {
+    width: auto;
+    height: 1200px;
+    margin: 50px 50px;
+    color: white;
+}
+
+#menuBar {
+    margin-top: 50px;
+    float: right;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+#menuBar a:hover {
+    color: white;
+    font-weight: normal;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#logoBar {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#logoLink {
+    color: blue;
+    font-style: italic;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+.content {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin-top: 180px;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.content2 {
+    width: 900px;
+    height: auto;
+    position: absolute;
+    padding: 5px;
+    margin-top: 180px;
+    color: black;
+    border-radius: 15px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+#res {
+    color: black;
+    height: 30px;
+    width: 200px;
+    border: 5 solid black;
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+    left: 160px;
+    color: black;
+    text-align: center;
+}
+
+.content3 {
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    margin-top: 180px;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.content4 {
+    width: 500px;
+    height: 320px;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 150px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+}
+
+td {
+    padding: 10px;
+}
+
+#button {
+    cursor: pointer;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#button:hover {
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+}
+
+tr:last-child {
+    text-align: center;
+}
+
+#span1:hover{font-size:25px; font-style: italic;color: blue;};
